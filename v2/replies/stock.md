@@ -16,6 +16,6 @@ Stock
 |    active    | признак активности бобины |
 
 
-* Далее: [Структуры возвращаемые в запросах. OrderSettings](orderSettings)
-* Ранее: [Структуры возвращаемые в запросах. SaleSettings](saleSettings)
+* Далее: [Коды ошибок](../errors)
+* Ранее: [Структуры возвращаемые в запросах. TicketCheck](ticketCheck)
 * [Содержание](../index)

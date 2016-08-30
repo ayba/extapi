@@ -66,6 +66,7 @@
 | 324  | Performance not started yet                                                |
 | 325  | Performance ended |
 | 326  | Can't remove. Tickets already used without printing. |
+| 327  | Session is closed |
 
 
 * Ранее: [Структуры возвращаемые в запросах. Discount](replies/discount)
