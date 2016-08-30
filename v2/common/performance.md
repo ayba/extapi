@@ -16,7 +16,7 @@ Performance
 |    token   |              токен             |     да     | string |      отсутствует      |
 |     id     | идентификатор сеанса в системе |     да     |   int  |      отсутствует      |
 | withPlaces |    выводить свободные места    |     нет    |  bool  |           0           |
-
+| filterPlaces |    фильтр мест (free, all)   | нет     | string    | free      |
 ### Пример запроса
 `/api/v2/schedule/performance/?id=2861&withPlaces=0&token={token}`
 
