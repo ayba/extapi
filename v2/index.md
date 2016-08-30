@@ -68,4 +68,5 @@
     * [DiscardsInfo](replies/discardsInfo)
     * [Ticket](replies/ticket)
     * [TicketCheck](replies/ticketCheck)
+    * [Stock](replies/stock)
 * [Коды ошибок](errors)
