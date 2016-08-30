@@ -24,5 +24,5 @@ _StockDisable_ - деактивировать бобину.
 ```
 
 * Далее: [Структуры, возвращаемые в запросах. Error](../replies/error)
-* Ранее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
+* Ранее: [Описание запросов, тип токена `cashiers`. StockEnable](stockEnable)
 * [Содержание](../index)

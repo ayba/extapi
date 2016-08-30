@@ -23,6 +23,6 @@ _StockInfo_ - информация по доступным бобинам.
 {"code":0,"message":"OK","data":{}}
 ```
 
-* Далее: [Структуры, возвращаемые в запросах. Error](../replies/error)
-* Ранее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
+* Далее: [Описание запросов, тип токена `cashiers`. StockEnable](stockEnable)
+* Ранее: [Описание запросов, тип токена `cashiers`. SessionClose](sessionClose)
 * [Содержание](../index)

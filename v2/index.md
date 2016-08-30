@@ -43,6 +43,12 @@
 	* [DiscardsInfo](discards/discardsInfo)
 * Описание запросов, тип токена `door_keeper`
     * [TicketCheck](tickets/ticketCheck)
+* Описание запросов, тип токена `cashiers`
+    * [SessionOpen](cashiers/sessionOpen)
+    * [SessionClose](cashiers/sessionOpen)
+    * [StockInfo](cashiers/stockInfo)
+    * [StockEnable](cashiers/stockEnable)
+    * [StockDisable](cashiers/stockDisable)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               

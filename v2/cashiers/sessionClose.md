@@ -23,6 +23,6 @@ _SessionClose_ - закрытие кассирской сессии.
 {"code":0,"message":"OK","data":[]}
 ```
 
-* Далее: [Структуры, возвращаемые в запросах. Error](../replies/error)
-* Ранее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
+* Далее: [Описание запросов, тип токена `cashiers`. StockInfo](stockInfo)
+* Ранее: [Описание запросов, тип токена `cashiers`. SessionOpen](sessionOpen)
 * [Содержание](../index)

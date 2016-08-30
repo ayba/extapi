@@ -25,6 +25,6 @@ _[TicketCheck](../replies/ticketCheck)_.
 "performanceStart":"2016-04-26 17:51:27","performanceEnd":"2016-04-26 19:51:27"}}
 ```
 
-* Далее: [Структуры, возвращаемые в запросах. Error](../replies/error)
+* Далее: [Описание запросов, тип токена `cashiers`. SessionOpen](../cashiers/sessionOpen)
 * Ранее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
 * [Содержание](../index)

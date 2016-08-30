@@ -23,6 +23,6 @@ _SessionOpen_ - открытие кассирской сессии.
 {"code":0,"message":"OK","data":{"sessionId":"58", "sessionStart":"2016-08-29 09:03:32"}}
 ```
 
-* Далее: [Структуры, возвращаемые в запросах. Error](../replies/error)
-* Ранее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
+* Далее: [Описание запросов, тип токена `cashiers`. SessionClose](sessionClose)
+* Ранее: [Описание запросов, тип токена `door_keeper`. TicketCheck](../tickets/ticketCheck)
 * [Содержание](../index)

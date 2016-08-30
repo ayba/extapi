@@ -23,6 +23,6 @@ _StockEnable_ - активировать бобину.
 {"code":0,"message":"OK","data":[]}
 ```
 
-* Далее: [Структуры, возвращаемые в запросах. Error](../replies/error)
-* Ранее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
+* Далее: [Описание запросов, тип токена `cashiers`. StockDisable](stockDisable)
+* Ранее: [Описание запросов, тип токена `cashiers`. StockInfo](stockInfo)
 * [Содержание](../index)
