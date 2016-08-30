@@ -20,7 +20,7 @@ _StockInfo_ - информация по доступным бобинам.
 
 ### Пример ответа
 ```
-{"code":0,"message":"OK","data":{}}
+ {"code":0,"message":"OK","data":[{"id":"2","series":"\u042b\u042b","current":"1","start":"1","free":"1000","active":"0"},{"id":"3","series":"\u0424\u042b","current":"1","start":"1","free":"1000","active":"0"},{"id":"6","series":"\u0424\u042b","current":"3001","start":"3001","free":"1000","active":"1"},{"id":"8","series":"\u0424\u042b","current":"5001","start":"5001","free":"1000","active":"0"}]}
 ```
 
 * Далее: [Описание запросов, тип токена `cashiers`. StockEnable](stockEnable)

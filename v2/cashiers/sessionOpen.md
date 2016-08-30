@@ -20,7 +20,7 @@ _SessionOpen_ - открытие кассирской сессии.
 
 ### Пример ответа
 ```
-{"code":0,"message":"OK","data":{"sessionId":"58", "sessionStart":"2016-08-29 09:03:32"}}
+ {"code":0,"message":"OK","data":{"sessionId":19,"beginTime":"2016-08-30 16:08:42","lastActivity":"2016-08-30 16:16:06","endTime":null,"downTime":764}}
 ```
 
 * Далее: [Описание запросов, тип токена `cashiers`. SessionClose](sessionClose)
