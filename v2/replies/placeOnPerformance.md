@@ -20,9 +20,9 @@ PlaceOnPerformance
 |   priceZone  |  название ценового пояса, по умолчанию base                         |
 |   state  |  состояние места (free, sold, inorder, occupied)                         |
 | orderId | Идентификатор бронирования, если есть |
-| order | Структура типа [Order](order) |
+| order | Структура типа [Order](order), если доступно |
 | saleId | Идентификатор продажи, если есть |
-| sale | Структура типа [Sale](sale) |
+| sale | Структура типа [Sale](sale), если доступно |
 
 * Далее: [Структуры возвращаемые в запросах. Place](place)
 * Ранее: [Структуры возвращаемые в запросах. Performance](performance)
