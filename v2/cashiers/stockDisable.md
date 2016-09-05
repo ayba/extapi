@@ -3,7 +3,7 @@
 
 _StockDisable_ - деактивировать бобину.
 ---------------------------------------
-`/api/v2/stockDisable/?session_id={id}&stock_id={sid}&token={token}`
+`/api/v2/stockDisable/?sessionId={id}&stockId={sid}&token={token}`
 
 ### Описание
 Деактивация выбранной бобины
@@ -12,11 +12,11 @@ _StockDisable_ - деактивировать бобину.
 | Параметр 	|        Описание       	| Обязателен 	|   Тип  	| Значение по умолчанию 	|
 |:--------:	|:---------------------:	|:----------:	|:------:	|:---------------------:	|
 |   token  	|         токен         	|     да     	| string 	|      отсутствует      	|
-|  session_id 	| идентификатор сессии |     да     	|   string  	|      отсутствует      	|
-|  stock_id 	| идентификатор бобины |     да     	|   string  	|      отсутствует      	|
+|  sessionId 	| идентификатор сессии |     да     	|   string  	|      отсутствует      	|
+|  stockId 	| идентификатор бобины |     да     	|   string  	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/stockDisable/?session_id=23&stock_id=2&token={token}`
+`/api/v2/stockDisable/?sessionId=23&stockId=2&token={token}`
 
 ### Пример ответа
 ```
