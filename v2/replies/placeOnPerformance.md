@@ -18,7 +18,11 @@ PlaceOnPerformance
 |   color  |                                                                   цвет места для отрисовки                                                                   |
 |   price  |                                                                        цена (в рублях)                                                                       |
 |   priceZone  |  название ценового пояса, по умолчанию base                         |
-|   state  |  состоятие места (free, sold, inorder, occupied                         |
+|   state  |  состоятие места (free, sold, inorder, occupied)                         |
+| orderId | Идентификатор бронирования, если есть |
+| order | Структура типа [Order](order) |
+| saleId | Идентификатор продажи, если есть |
+| sale | Структура типа [Sale](sale) |
 
 * Далее: [Структуры возвращаемые в запросах. Place](place)
 * Ранее: [Структуры возвращаемые в запросах. Performance](performance)
