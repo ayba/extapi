@@ -49,6 +49,8 @@
     * [StockInfo](cashiers/stockInfo)
     * [StockEnable](cashiers/stockEnable)
     * [StockDisable](cashiers/stockDisable)
+    * [TicketSearch](cashiers/ticketSearch)
+    * [TicketReturn](cashiers/ticketReturn)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
