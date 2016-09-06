@@ -1,13 +1,13 @@
-Описание запросов, тип токена _Ordering_
+Описание запросов, тип токена _Sales_
 =====================================
 
-_OrderSearch_ - поиск бронирований
-----------------------------------
-`/api/v2/orderSearch/?string={searchString}&token={token}`
+_SaleSearch_ - поиск продаж
+---------------------------
+`/api/v2/saleSearch/?string={searchString}&token={token}`
 
 ### Описание
-Возвращает информацию о найденных бронированиях.
-Массив структур типа _[Order](../replies/order)_.
+Возвращает информацию о найденных продажах.
+Массив структур типа _[Sale](../replies/sale)_.
 
 Поиск производится по номеру брони и данным указанным при бронировании.
 
@@ -18,11 +18,11 @@ _OrderSearch_ - поиск бронирований
 |     string    |   строка для поиска брони   |     да    |   string  |      отсутствует      |
 
 ### Пример запроса
-`/api/v2/orderSearch/?string=1&token={token}`
+`/api/v2/saleSearch/?string=777&token={token}`
 
 ### Пример ответа
 ```
-  {"code":0,"message":"OK","data":[{"orderId":"1","places":null,"performanceId":"17","orderType":"4","orderPerson":"\u0447\u0435\u043b","state":"active"}]}
+  {"code":0,"message":"OK","data":[{"saleId":"1","places":{"392":300},"salePerson":"777","performanceId":"39","saleExternalId":"12345","isPaid":"1","isPrinted":"0","orderId":null,"tickets":[{"ticketId":"57","placeId":"392","price":"300","uniqueCode":"11ad7a584ecb3e362577a9355f11956a","useCounter":"0"}]}]}   
 ```
 
 * [Содержание](../index)
