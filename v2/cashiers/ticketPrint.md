@@ -17,6 +17,7 @@ _TicketPrint_ - печать билета
 |   token  	|         токен         	|     да     	| string 	|      отсутствует      	|
 |   ticketId 	| идентификатор билета 	|     да     	| int 	|      отсутствует      	|
 |   sessionId 	| идентификатор сессии 	|     да     	| int 	|      отсутствует      	|
+|   saleType 	| тип продажи, cash, cashless, bonus, online 	|     нет     	| string 	|      cash      	|
 
 ### Пример запроса
 `/api/v2/ticketPrint/?ticketId=58&sessionId=4&token={token}`
