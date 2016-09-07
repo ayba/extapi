@@ -56,6 +56,7 @@
     * [TicketSearch](cashiers/ticketSearch)
     * [TicketReturn](cashiers/ticketReturn)
     * [TicketPrint](cashiers/ticketPrint)
+    * [ReportsInfo](cashiers/reportsInfo)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
