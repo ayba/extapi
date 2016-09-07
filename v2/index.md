@@ -43,6 +43,7 @@
 * Описание запросов, тип токена `discards`
 	* [DiscardsSettings](discards/discardsSettings)
 	* [DiscardsInfo](discards/discardsInfo)
+	* [DiscardsSearch](discards/discardsSearch)
 * Описание запросов, тип токена `door_keeper`
     * [TicketCheck](tickets/ticketCheck)
 * Описание запросов, тип токена `cashiers`
