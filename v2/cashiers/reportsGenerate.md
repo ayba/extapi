@@ -28,6 +28,7 @@ _ReportsGenerate_ - генерировать отчёт.
 
 ### Пример запроса
 `/api/v2/reportsGenerate/?token={token}`
+
 ***BODY***
 ```
 { "sessionId": 4, "reportId": 3 }
