@@ -3,7 +3,7 @@
 
 _TicketReturn_ - возврат билета
 -------------------------------
-`/api/v2/ticketReturn/?ticket={string}&sessionId={sid}&returnType={1,2,3,4}&token={token}`
+`/api/v2/ticketReturn/?ticket={string}&returnType={1,2,3,4}&token={token}`
 
 ### Описание
 Запрос на возврат билета.
@@ -20,11 +20,10 @@ _TicketReturn_ - возврат билета
 |:--------:	|:---------------------:	|:----------:	|:------:	|:---------------------:	|
 |   token  	|         токен         	|     да     	| string 	|      отсутствует      	|
 |   ticket 	| строка для поиска билета 	|     да     	| string 	|      отсутствует      	|
-|   sessionId 	| идентификатор сессии 	|     да     	| int 	|      отсутствует      	|
 |   returnType 	|  тип возврата 	|     да     	| int 	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/ticketReturn/?ticket=%D0%90%D0%9056&sessionId=19&returnType=3&token={token}`
+`/api/v2/ticketReturn/?ticket=%D0%90%D0%9056&returnType=3&token={token}`
 
 ### Пример ответа
 ```
