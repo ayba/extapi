@@ -48,7 +48,7 @@
     * [TicketCheck](tickets/ticketCheck)
 * Описание запросов, тип токена `cashiers`
     * [SessionOpen](cashiers/sessionOpen)
-    * [SessionClose](cashiers/sessionOpen)
+    * [SessionClose](cashiers/sessionClose)
     * [StockInfo](cashiers/stockInfo)
     * [StockEnable](cashiers/stockEnable)
     * [StockDisable](cashiers/stockDisable)
