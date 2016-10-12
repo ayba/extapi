@@ -3,7 +3,7 @@
 
 _TicketPrint_ - печать билета
 -----------------------------
-`/api/v2/ticketPrint/?ticketId={tid}&sessionId={sid}&token={token}`
+`/api/v2/ticketPrint/?ticketId={tid}&token={token}`
 
 ### Описание
 Помечает ранее созданный билет как распечатанный и прокручивает счётчик бобины.
@@ -16,11 +16,10 @@ _TicketPrint_ - печать билета
 |:--------:	|:---------------------:	|:----------:	|:------:	|:---------------------:	|
 |   token  	|         токен         	|     да     	| string 	|      отсутствует      	|
 |   ticketId 	| идентификатор билета 	|     да     	| int 	|      отсутствует      	|
-|   sessionId 	| идентификатор сессии 	|     да     	| int 	|      отсутствует      	|
 |   saleType 	| тип продажи, cash, cashless, bonus, online 	|     нет     	| string 	|      cash      	|
 
 ### Пример запроса
-`/api/v2/ticketPrint/?ticketId=58&sessionId=4&token={token}`
+`/api/v2/ticketPrint/?ticketId=58&token={token}`
 
 ### Пример ответа
 ```
