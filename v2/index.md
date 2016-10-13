@@ -58,6 +58,10 @@
     * [TicketPrint](cashiers/ticketPrint)
     * [ReportsInfo](cashiers/reportsInfo)
     * [ReportsGenerate](cashiers/reportsGenerate)
+    * [PlacesTake](cashiers/placesTake)
+    * [PlacesFree](cashiers/placesTake)
+    * [PlacesInfo](cashiers/placesTake)
+    * [PlacesClear](cashiers/placesTake)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
