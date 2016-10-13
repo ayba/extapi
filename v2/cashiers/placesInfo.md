@@ -18,7 +18,33 @@ _PlacesInfo_ - информация о занятых кассиром мест�
 
 ### Пример ответа
 ```
-{"code":0,"message":"OK","data":[{"performanceId":1077,"placeId":396,"price":300},{"performanceId":1078,"placeId":399,"price":0}]}
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "performanceId": 1077,
+      "placeId": 400,
+      "price": 300,
+      "discountId": null,
+      "discardId": null
+    },
+    {
+      "performanceId": 1077,
+      "placeId": 401,
+      "price": 300,
+      "discountId": null,
+      "discardId": null
+    },
+    {
+      "performanceId": 1078,
+      "placeId": 400,
+      "price": 200,
+      "discountId": null,
+      "discardId": null
+    }
+  ]
+}
 ```
 
 * [Содержание](../index)
