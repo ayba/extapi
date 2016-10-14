@@ -40,6 +40,8 @@
 | 210  | Place not found in Sale                                                    |
 | 211  | Card not found                                                             |
 | 212  | Ticket not found                                                           |
+| 213  | Stock not found                                                           |
+| 214  | No active stock found                                                           |
 | 301  | Order already exists                                                       |
 | 302  | Sale already exists                                                        |
 | 303  | Maximum number of places for sale exceeded                                 |
@@ -67,6 +69,14 @@
 | 325  | Performance ended |
 | 326  | Can't remove. Tickets already used without printing. |
 | 327  | Session is closed |
+| 328  | Return not allowed. Too later |
+| 329  | Ticket already returned |
+| 330  | Ticket already printed |
+| 331  | Params not match report's required params |
+| 332  | No access to this report |
+| 333  | No active session |
+| 334  | Place is not occupied by this user |
+| 335  | Performance does not have this discount |
 
 
 * Ранее: [Структуры возвращаемые в запросах. Discount](replies/discount)
