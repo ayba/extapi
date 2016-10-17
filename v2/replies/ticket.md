@@ -11,6 +11,7 @@ Ticket
 |  ticketId  	|      идентификатор в системе      	|
 |   placeId  	|        идентификатор места        	|
 |    price   	|                цена               	|
+| discountId   	|   идентификатор скидки               	|
 | uniqueCode 	| уникальный код для печати QR-кода 	|
 
 * Далее: [Структуры возвращаемые в запросах. TicketCheck](ticketCheck)

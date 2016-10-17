@@ -16,7 +16,7 @@ _PlacesFree_ - удалить место.
 |  placeId 	| идентификатор места |     да     	|   int  	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/placesFree/?performanceId=1078&placesId=399&token={token}`
+`/api/v2/placesFree/?performanceId=1078&placeId=399&token={token}`
 
 ### Пример ответа
 ```

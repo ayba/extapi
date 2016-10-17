@@ -16,7 +16,7 @@ _PlacesTake_ - добавить место.
 |  placeId 	| идентификатор места |     да     	|   int  	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/placesTake/?performanceId=1077&placesId=391&token={token}`
+`/api/v2/placesTake/?performanceId=1077&placeId=391&token={token}`
 
 ### Пример ответа
 ```
