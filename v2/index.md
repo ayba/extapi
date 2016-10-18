@@ -87,4 +87,5 @@
     * [Ticket](replies/ticket)
     * [TicketCheck](replies/ticketCheck)
     * [Stock](replies/stock)
+    * [CashierPlace](replies/cashierPlace)
 * [Коды ошибок](errors)

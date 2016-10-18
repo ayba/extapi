@@ -8,6 +8,8 @@ _PlacesInfo_ - информация о занятых кассиром мест�
 ### Описание
 Информация о занятых кассиром местах.
 
+Возвращает массив структур _[CashierPlace](../replies/cashierPlace)_.
+
 ### Параметры
 | Параметр 	|        Описание       	| Обязателен 	|   Тип  	| Значение по умолчанию 	|
 |:--------:	|:---------------------:	|:----------:	|:------:	|:---------------------:	|
@@ -23,25 +25,26 @@ _PlacesInfo_ - информация о занятых кассиром мест�
   "message": "OK",
   "data": [
     {
-      "performanceId": 1077,
-      "placeId": 400,
-      "price": 300,
-      "discountId": null,
-      "discardId": null
+      "performanceId": 1002,
+      "placeId": 366,
+      "price": 180,
+      "discountId": 2,
+      "discardNumber": "2440042116485",
+      "discountValue": 100,
+      "discardValue": 20,
+      "bonusSale": false,
+      "bonusDelta": 9
     },
     {
-      "performanceId": 1077,
-      "placeId": 401,
-      "price": 300,
+      "performanceId": 1002,
+      "placeId": 367,
+      "price": 270,
       "discountId": null,
-      "discardId": null
-    },
-    {
-      "performanceId": 1078,
-      "placeId": 400,
-      "price": 200,
-      "discountId": null,
-      "discardId": null
+      "discardNumber": "2440042116485",
+      "discountValue": null,
+      "discardValue": 30,
+      "bonusSale": false,
+      "bonusDelta": 14
     }
   ]
 }
