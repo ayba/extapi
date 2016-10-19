@@ -17,6 +17,7 @@
     * [Performance](common/performance)                                                                                                                                     
     * [Places](common/places) [Deprecated]                                                                                                                                              
     * [DiscountInfo](common/discountInfo)                                                                                                                                       
+    * [DiscountSettings](common/discountSettings)                                                                                                                                       
 * Описание запросов, тип токена `sales`
     * [SaleSettings](sales/saleSettings)   
     * Подзапросы SalePlaceReservation, для работы с местами в продаже                                    
