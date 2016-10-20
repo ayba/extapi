@@ -3,7 +3,7 @@
 
 _PlacesConvertToOrder_ - конвертировать набор мест в бронь.
 ------------------------------------
-`/api/v2/placesConvertToOrder/?orderType={id}&orderPerson={person}&token={token}`
+`/api/v2/placesConvertToOrder/?orderType={id}&orderPerson={person}&orderId={orderId}&token={token}`
 
 ### Описание
 Конвертация набора мест в бронь или несколько бронирований.
