@@ -18,12 +18,35 @@ _TicketPrint_ - печать билета
 |   ticketId 	| идентификатор билета 	|     да     	| int 	|      отсутствует      	|
 |   saleType 	| тип продажи, cash, cashless, bonus, online 	|     нет     	| string 	|      cash      	|
 
+##### Примечание
+Параметр saleType допускается передавать цифрой:
+
+| Параметр 	|  Цифра             	|
+|:--------:	|:---------------------:	|
+|   cash  	|         1         	|
+|   cashless  	|         2         	|
+|   bonus  	|         3         	|
+|   online  	|         4         	|
+
 ### Пример запроса
 `/api/v2/ticketPrint/?ticketId=58&token={token}`
 
 ### Пример ответа
 ```
-{"code":0,"message":"OK","data":{"stockInfo":{"id":"11","series":"\u0424\u0424","current":"9019","start":"9001","free":"982","active":"1"}}}
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "stockInfo": {
+      "id": "11",
+      "series": "ФФ",
+      "current": "9019",
+      "start": "9001",
+      "free": "982",
+      "active": "1"
+    }
+  }
+}
 ```
 
 * [Содержание](../index)
