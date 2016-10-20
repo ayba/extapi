@@ -68,6 +68,7 @@
     * [PlacesConvertToOrder](cashiers/placesConvertToOrder)
     * [PlacesConvertToSale](cashiers/placesConvertToSale)
     * [PlacesDiscardAdd](cashiers/placesDiscardAdd)
+    * [OrderConvertToPlaces](cashiers/orderConvertToPlaces)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
