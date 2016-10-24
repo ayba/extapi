@@ -51,11 +51,20 @@ _DiscardsSettings_ - получение настроек модуля скидо
         "schemeId": "5",
         "schemeName": "Новая"
       }
+    ],
+    "hosters": [
+      {
+        "hosterId": "1",
+        "hosterName": "Кинотеатр"
+      },
+      {
+        "hosterId": "2",
+        "hosterName": "Магазин"
+      }
     ]
   }
 }
 ```
-
 * Далее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
 * Ранее: [Описание запросов, тип токена `ordering`. OrderDiscardAdd](../ordering/orderDiscardAdd)
 * [Содержание](../index)
