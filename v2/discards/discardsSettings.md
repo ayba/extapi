@@ -19,7 +19,41 @@ _DiscardsSettings_ - получение настроек модуля скидо
 
 ### Пример ответа
 ```
-{"code":0,"message":"OK","data":{"isBonusSale":"1","discountsMode":"0","discountsModeMsg":"Do not sum, use discard only"}} 
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "isBonusSale": "1",
+    "discountsMode": "1",
+    "discountsModeMsg": "Summarize all",
+    "bonusesPartialPayment": "0",
+    "bonusesPartialPaymentAndDiscounts": "0",
+    "cashiersAddDiscards": "1",
+    "cashiersCardBalance": "1",
+    "schemes": [
+      {
+        "schemeId": "1",
+        "schemeName": "Бонусная"
+      },
+      {
+        "schemeId": "2",
+        "schemeName": "Киноман"
+      },
+      {
+        "schemeId": "3",
+        "schemeName": "Увидеть все"
+      },
+      {
+        "schemeId": "4",
+        "schemeName": "Бонусы"
+      },
+      {
+        "schemeId": "5",
+        "schemeName": "Новая"
+      }
+    ]
+  }
+}
 ```
 
 * Далее: [Описание запросов, тип токена `discards`. DiscardsInfo](discardsInfo)
