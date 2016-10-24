@@ -70,6 +70,7 @@
     * [PlacesDiscardAdd](cashiers/placesDiscardAdd)
     * [OrderConvertToPlaces](cashiers/orderConvertToPlaces)
     * [DiscardsBonusesAdd](cashiers/discardsBonusesAdd)
+    * [DiscardsAdd](cashiers/discardsAdd)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
