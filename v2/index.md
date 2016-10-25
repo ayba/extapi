@@ -57,6 +57,7 @@
     * [TicketSearch](cashiers/ticketSearch)
     * [TicketReturn](cashiers/ticketReturn)
     * [TicketPrint](cashiers/ticketPrint)
+    * [TicketListReturns](cashiers/ticketListReturns)
     * [ReportsInfo](cashiers/reportsInfo)
     * [ReportsGenerate](cashiers/reportsGenerate)
     * [PlacesTake](cashiers/placesTake)
