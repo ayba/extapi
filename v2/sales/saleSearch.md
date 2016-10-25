@@ -18,11 +18,44 @@ _SaleSearch_ - поиск продаж
 |     string    |   строка для поиска брони   |     да    |   string  |      отсутствует      |
 
 ### Пример запроса
-`/api/v2/saleSearch/?string=777&token={token}`
+`/api/v2/saleSearch/?string=924&token={token}`
 
 ### Пример ответа
 ```
-  {"code":0,"message":"OK","data":[{"saleId":"1","places":{"392":300},"salePerson":"777","performanceId":"39","saleExternalId":"12345","isPaid":"1","isPrinted":"0","orderId":null,"tickets":[{"ticketId":"57","placeId":"392","price":"300","uniqueCode":"11ad7a584ecb3e362577a9355f11956a","useCounter":"0"}]}]}   
+  {
+    "code": 0,
+    "message": "OK",
+    "data": [
+      {
+        "saleId": "924",
+        "created": "1476972100",
+        "saleDatetime": "2016-10-20 17:01:40",
+        "places": {
+          "215": 300
+        },
+        "extInfo": null,
+        "salePerson": "",
+        "performanceId": "101",
+        "saleExternalId": "",
+        "isPaid": "1",
+        "isPrinted": "0",
+        "orderId": null,
+        "tickets": [
+          {
+            "ticketId": "445",
+            "performanceId": "101",
+            "placeId": "215",
+            "price": "300",
+            "uniqueCode": "730ccc5fb8cd16b5bcd89f911e631ffd",
+            "useCounter": "0",
+            "discountId": null,
+            "discardId": null
+          }
+        ],
+        "appName": "cashier : Новый Кассир"
+      }
+    ]
+  }   
 ```
 
 * [Содержание](../index)

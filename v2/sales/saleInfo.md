@@ -22,13 +22,45 @@ SaleInfo
 |  saleId  | идентификатор продажи в системе |     нет    |   int  |      отсутствует      |
 
 ### Пример запроса
-`/api/v2/saleInfo/?saleId=8token={token}`
+`/api/v2/saleInfo/?saleId=924token={token}`
 
 ### Пример ответа
 
 ```
-{"code":0,"message":"OK","data":{"saleId":"8","places":{"23":200},
-"salePerson":"","performanceId":"1","saleExternalId":"","isPaid":"0","isPrinted":"0","orderId":null}}  
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "saleId": "924",
+      "created": "1476972100",
+      "saleDatetime": "2016-10-20 17:01:40",
+      "places": {
+        "215": 300
+      },
+      "extInfo": null,
+      "salePerson": "",
+      "performanceId": "101",
+      "saleExternalId": "",
+      "isPaid": "1",
+      "isPrinted": "0",
+      "orderId": null,
+      "tickets": [
+        {
+          "ticketId": "445",
+          "performanceId": "101",
+          "placeId": "215",
+          "price": "300",
+          "uniqueCode": "730ccc5fb8cd16b5bcd89f911e631ffd",
+          "useCounter": "0",
+          "discountId": null,
+          "discardId": null
+        }
+      ],
+      "appName": "cashier : Новый Кассир"
+    }
+  ]
+} 
 ```
 
 * Далее: [Описание запросов, тип токена `sales`. SaleRemove](saleRemove)
