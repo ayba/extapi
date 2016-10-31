@@ -50,6 +50,7 @@
 * Описание запросов, тип токена `cashiers`
     * [SessionOpen](cashiers/sessionOpen)
     * [SessionClose](cashiers/sessionClose)
+    * [SessionHasOpened](cashiers/sessionHasOpened)
     * [StockInfo](cashiers/stockInfo)
     * [StockEnable](cashiers/stockEnable)
     * [StockDisable](cashiers/stockDisable)
