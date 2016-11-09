@@ -70,6 +70,7 @@
     * [PlacesConvertToOrder](cashiers/placesConvertToOrder)
     * [PlacesConvertToSale](cashiers/placesConvertToSale)
     * [PlacesDiscardAdd](cashiers/placesDiscardAdd)
+    * [PlacesDiscardRemove](cashiers/placesDiscardRemove.md)
     * [OrderConvertToPlaces](cashiers/orderConvertToPlaces)
     * [DiscardsBonusesAdd](cashiers/discardsBonusesAdd)
     * [DiscardsAdd](cashiers/discardsAdd)
