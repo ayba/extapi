@@ -78,6 +78,8 @@
 | 334  | Place is not occupied by this user |
 | 335  | Performance does not have this discount |
 | 336  | Order is not active |
+| 337  | Card already exists |
+| 338  | Place already has discount |
 
 
 * Ранее: [Структуры возвращаемые в запросах. Discount](replies/discount)
