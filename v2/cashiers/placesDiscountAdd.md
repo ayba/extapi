@@ -17,20 +17,26 @@ _PlacesDiscountAdd_ - применить скидку к месту.
 |  discountId 	| идентификатор скидки |     да     	|   int  	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/placesDiscountAdd/?performanceId=1077&placeId=400&discountId=2&token={token}`
+`/api/v2/placesDiscountAdd/?performanceId=310&placeId=101&discountId=2&token={token}`
 
 ### Пример ответа
 ```
- {
-   "code": 0,
-   "message": "OK",
-   "data": {
-     "performanceId": 1077,
-     "placeId": 400,
-     "price": 200,
-     "discountId": 2
-   }
- }
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "performanceId": 310,
+    "placeId": 101,
+    "price": 200,
+    "orderId": null,
+    "discountId": 2,
+    "discardNumber": null,
+    "discountValue": 100,
+    "discardValue": null,
+    "bonusSale": false,
+    "bonusDelta": null
+  }
+}
 ```
 
 * [Содержание](../index)

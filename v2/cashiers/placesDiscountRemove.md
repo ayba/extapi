@@ -16,19 +16,26 @@ _PlacesDiscountRemove_ - убрать скидку.
 |  placeId 	| идентификатор места |     да     	|   int  	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/placesDiscountRemove/?performanceId=1077&placeId=400&token={token}`
+`/api/v2/placesDiscountRemove/?performanceId=310&placeId=101&token={token}`
 
 ### Пример ответа
 ```
- {
-   "code": 0,
-   "message": "OK",
-   "data": {
-     "performanceId": 1077,
-     "placeId": 400,
-     "price": 300,
-   }
- }
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "performanceId": 310,
+    "placeId": 101,
+    "price": 300,
+    "orderId": null,
+    "discountId": null,
+    "discardNumber": null,
+    "discountValue": null,
+    "discardValue": null,
+    "bonusSale": false,
+    "bonusDelta": null
+  }
+}
 ```
 
 * [Содержание](../index)

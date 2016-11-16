@@ -20,7 +20,15 @@ _PlacesTake_ - добавить место.
 
 ### Пример ответа
 ```
- {"code":0,"message":"OK","data":{"performanceId":1077,"placeId":391,"price":300}}
+ {
+   "code": 0,
+   "message": "OK",
+   "data": {
+     "performanceId": 1077,
+     "placeId": 391,
+     "price": 300
+   }
+ }
 ```
 
 * [Содержание](../index)
