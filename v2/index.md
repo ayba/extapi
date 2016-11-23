@@ -70,10 +70,11 @@
     * [PlacesConvertToOrder](cashiers/placesConvertToOrder)
     * [PlacesConvertToSale](cashiers/placesConvertToSale)
     * [PlacesDiscardAdd](cashiers/placesDiscardAdd)
-    * [PlacesDiscardRemove](cashiers/placesDiscardRemove.md)
+    * [PlacesDiscardRemove](cashiers/placesDiscardRemove)
     * [OrderConvertToPlaces](cashiers/orderConvertToPlaces)
     * [DiscardsBonusesAdd](cashiers/discardsBonusesAdd)
     * [DiscardsAdd](cashiers/discardsAdd)
+    * [GoodsList](cashiers/goodsList)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
