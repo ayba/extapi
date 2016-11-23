@@ -25,7 +25,7 @@ _GoodsReturn_ - возврат товаров.
 ***BODY***
 ```json
 {
-  "saleType": 1,
+  "returnType": 1,
   "goods": [
     {
       "id": 1,
