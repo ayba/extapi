@@ -76,6 +76,7 @@
     * [DiscardsAdd](cashiers/discardsAdd)
     * [GoodsList](cashiers/goodsList)
     * [GoodsSale](cashiers/goodsSale)
+    * [GoodsReturn](cashiers/goodsReturn)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
