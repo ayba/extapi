@@ -71,6 +71,8 @@
     * [PlacesConvertToSale](cashiers/placesConvertToSale)
     * [PlacesDiscardAdd](cashiers/placesDiscardAdd)
     * [PlacesDiscardRemove](cashiers/placesDiscardRemove)
+    * [PlacesCertAdd](cashiers/placesCertAdd)
+    * [PlacesCertRemove](cashiers/placesCertRemove)
     * [OrderConvertToPlaces](cashiers/orderConvertToPlaces)
     * [DiscardsBonusesAdd](cashiers/discardsBonusesAdd)
     * [DiscardsAdd](cashiers/discardsAdd)
