@@ -80,6 +80,9 @@
 | 336  | Order is not active |
 | 337  | Card already exists |
 | 338  | Place already has discount |
+| 339  | Certificate already used |
+| 340  | Certificate is too small |
+| 341  | Certificate already applied |
 
 
 * Ранее: [Структуры возвращаемые в запросах. Discount](replies/discount)
