@@ -19,9 +19,18 @@ _SaleSettings_ - информация о настройках продажи
 `/api/v2/saleSettings/?token={token}`
 
 ### Пример ответа
-```
-{"code":0,"message":"OK","data":{"applyDiscount":1,"placesLimit":5,
-"discount":{"discountId":1,"discountName":"children","discountValue":"-50%"}}}
+```json
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "applyDiscount": 0,
+    "placesLimit": 0,
+    "globalSettings": {
+      "ticketReturnTime": "15"
+    }
+  }
+}
 ```
 
 * Далее: [Описание запросов, тип токена `ordering`. SalePlaceReservation/new](../sales/salePlaceReservationNew)
