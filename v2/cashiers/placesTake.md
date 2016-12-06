@@ -3,32 +3,67 @@
 
 _PlacesTake_ - добавить место.
 ------------------------------------
-`/api/v2/placesTake/?performanceId={perf_id}&placeId={place_id}&token={token}`
+`/api/v2/placesTake/?token={token}`
 
 ### Описание
 Добавление места к кассирскому набору.
+Параметры запроса передаются закодированными в JSON в BODY запроса
 
 ### Параметры
 | Параметр 	|        Описание       	| Обязателен 	|   Тип  	| Значение по умолчанию 	|
 |:--------:	|:---------------------:	|:----------:	|:------:	|:---------------------:	|
 |   token  	|         токен         	|     да     	| string 	|      отсутствует      	|
-|  performanceId 	| идентификатор сеанса |     да     	|   int  	|      отсутствует      	|
-|  placeId 	| идентификатор места |     да     	|   int  	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/placesTake/?performanceId=1077&placeId=391&token={token}`
+`/api/v2/placesTake/?ptoken={token}`
+
+***BODY***
+```
+{
+  "performanceId": 3,
+  "places": [
+    360,
+    361
+  ]
+}
+```
 
 ### Пример ответа
-```
- {
-   "code": 0,
-   "message": "OK",
-   "data": {
-     "performanceId": 1077,
-     "placeId": 391,
-     "price": 300
-   }
- }
+```json
+{
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "performanceId": 1602,
+      "placeId": 360,
+      "price": 250,
+      "orderId": null,
+      "discountId": null,
+      "discardNumber": null,
+      "discountValue": null,
+      "discardValue": null,
+      "bonusSale": false,
+      "bonusDelta": null,
+      "cert": null,
+      "certValue": null
+    },
+    {
+      "performanceId": 1602,
+      "placeId": 361,
+      "price": 250,
+      "orderId": null,
+      "discountId": null,
+      "discardNumber": null,
+      "discountValue": null,
+      "discardValue": null,
+      "bonusSale": false,
+      "bonusDelta": null,
+      "cert": null,
+      "certValue": null
+    }
+  ]
+}
 ```
 
 * [Содержание](../index)
