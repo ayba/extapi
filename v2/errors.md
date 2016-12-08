@@ -83,6 +83,7 @@
 | 339  | Certificate already used |
 | 340  | Certificate is too small |
 | 341  | Certificate already applied |
+| 342  | Not enough blanks in stock |
 
 
 * Ранее: [Структуры возвращаемые в запросах. Discount](replies/discount)
