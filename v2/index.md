@@ -81,6 +81,10 @@
     * [GoodsReturn](cashiers/goodsReturn)
     * [CertsList](cashiers/certsList)
     * [CertsSale](cashiers/certsSale)
+    * [companiesList](cashiers/companiesList)
+    * [companiesSearch](cashiers/companiesSearch)
+    * [customersList](cashiers/customersList)
+    * [customersSearch](cashiers/customersSearch)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
