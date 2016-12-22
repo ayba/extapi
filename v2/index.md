@@ -61,6 +61,7 @@
     * [TicketListReturns](cashiers/ticketListReturns)
     * [ReportsInfo](cashiers/reportsInfo)
     * [ReportsGenerate](cashiers/reportsGenerate)
+    * [ReportsDara](cashiers/reportsData)
     * [PlacesTake](cashiers/placesTake)
     * [PlacesFree](cashiers/placesFree)
     * [PlacesInfo](cashiers/placesInfo)
