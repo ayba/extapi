@@ -84,6 +84,7 @@
 | 340  | Certificate is too small |
 | 341  | Certificate already applied |
 | 342  | Not enough blanks in stock |
+| 343  | Discount overprice not allowed |
 
 
 * Ранее: [Структуры возвращаемые в запросах. Discount](replies/discount)
