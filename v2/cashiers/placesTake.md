@@ -15,7 +15,7 @@ _PlacesTake_ - добавить место.
 |   token  	|         токен         	|     да     	| string 	|      отсутствует      	|
 
 ### Пример запроса
-`/api/v2/placesTake/?ptoken={token}`
+`/api/v2/placesTake/?token={token}`
 
 ***BODY***
 ```
