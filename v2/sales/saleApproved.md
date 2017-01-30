@@ -28,9 +28,33 @@ _SaleApproved_ - подтверждение продажи
 `/api/v2/saleApproved/?token={token}`
 
 ### Пример ответа
-```
-{"code":0,"message":"OK","data":{"saleId":"7","places":{"345":250,"346":
-250},"salePerson":"Pokupatel","performanceId":"7025","saleExternalId":"11223344"}}
+```json
+{
+  "code": 0,
+  "message": "OK",
+  "data": {
+    "saleId": "48582",
+    "places": {
+      "1": 230
+    },
+    "salePerson": "asd",
+    "performanceId": "144162",
+    "saleExternalId": "",
+    "saleUniqueCode": "dd090d2a1151ba2e74703856b1eaafde",
+    "isPaid": "1",
+    "isPrinted": "0",
+    "orderId": null,
+    "tickets": [
+      {
+        "ticketId": "2795296",
+        "placeId": "1",
+        "price": "230",
+        "uniqueCode": "7e726d52a0c1a0c0abad930e9eabac16",
+        "useCounter": "0"
+      }
+    ]
+  }
+}
 ```
 
 * Далее: [Описание запросов, тип токена `sales`. SaleInfo](saleInfo)
