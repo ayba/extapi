@@ -47,6 +47,7 @@
 	* [DiscardsSearch](discards/discardsSearch)
 * Описание запросов, тип токена `door_keeper`
     * [TicketCheck](tickets/ticketCheck)
+    * [SaleCheck](sales/saleCheck)
 * Описание запросов, тип токена `cashiers`
     * [SessionOpen](cashiers/sessionOpen)
     * [SessionClose](cashiers/sessionClose)
@@ -86,7 +87,6 @@
     * [CompaniesSearch](cashiers/companiesSearch)
     * [CustomersList](cashiers/customersList)
     * [CustomersSearch](cashiers/customersSearch)
-    * [SaleCheck](sales/saleCheck)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
