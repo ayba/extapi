@@ -86,6 +86,7 @@
     * [CompaniesSearch](cashiers/companiesSearch)
     * [CustomersList](cashiers/customersList)
     * [CustomersSearch](cashiers/customersSearch)
+    * [SaleCheck](sales/saleCheck)
 * Структуры возвращаемые в запросах
     * [Error](replies/error) 
     * [Token](replies/token)                                                                                                                                               
