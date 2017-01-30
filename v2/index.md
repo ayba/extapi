@@ -60,6 +60,7 @@
     * [TicketReturn](cashiers/ticketReturn)
     * [TicketPrint](cashiers/ticketPrint)
     * [TicketListReturns](cashiers/ticketListReturns)
+    * [TicketListOnline](cashiers/ticketListOnline)
     * [ReportsInfo](cashiers/reportsInfo)
     * [ReportsGenerate](cashiers/reportsGenerate)
     * [ReportsData](cashiers/reportsData)
