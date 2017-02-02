@@ -12,6 +12,7 @@ Ticket
 |  performanceId  	|      идентификатор сеанса      	|
 |   placeId  	|        идентификатор места        	|
 |    price   	|                цена               	|
+|  basePrice   	|           базовая цена               	|
 | discountId   	|   идентификатор скидки               	|
 | uniqueCode 	| уникальный код для печати QR-кода 	|
 | useCounter 	| счетчик сканирований билета 	|
