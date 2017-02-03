@@ -58,6 +58,7 @@
     * [StockTurn](cashiers/stockTurn)
     * [TicketSearch](cashiers/ticketSearch)
     * [TicketReturn](cashiers/ticketReturn)
+    * [TicketsReturn](cashiers/ticketsReturn)
     * [TicketPrint](cashiers/ticketPrint)
     * [TicketListReturns](cashiers/ticketListReturns)
     * [TicketListOnline](cashiers/ticketListOnline)

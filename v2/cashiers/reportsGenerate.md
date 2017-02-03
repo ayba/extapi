@@ -3,7 +3,7 @@
 
 _ReportsGenerate_ - генерировать отчёт.
 ---------------------------------------
-`/api/v2/reportsGenerate/token={token}`
+`/api/v2/reportsGenerate/?token={token}`
 
 ### Описание
 Возвращает ссылки на сгенерированный отчет (html, pdf, xls).
