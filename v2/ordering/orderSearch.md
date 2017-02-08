@@ -23,8 +23,21 @@ _OrderSearch_ - поиск бронирований
 `/api/v2/orderSearch/?string=1&token={token}`
 
 ### Пример ответа
-```
-  {"code":0,"message":"OK","data":[{"orderId":"1","places":null,"performanceId":"17","orderType":"4","orderPerson":"\u0447\u0435\u043b","state":"active"}]}
+```json
+  {
+  "code": 0,
+  "message": "OK",
+  "data": [
+    {
+      "orderId": "1",
+      "places": null,
+      "performanceId": "17",
+      "orderType": "4",
+      "orderPerson": "чел",
+      "state": "active"
+    }
+  ]
+}
 ```
 
 * [Содержание](../index)
