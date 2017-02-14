@@ -22,6 +22,10 @@ _[Sale](../replies/sale)_.
 ### Пример запроса
 `/api/v2/saleCheck/?code=3d30c9d900278018dd1ab6c127735755&hallId=3,2&token={token}`
 
+или 
+
+`/api/v2/saleCheck/?saleId=7926&hallId=3,2&token={token}`
+
 ### Пример ответа
 ```json
 {
