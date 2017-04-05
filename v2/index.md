@@ -30,6 +30,7 @@
     * [SaleFromOrder](sales/saleFromOrder)
     * [SaleDiscardAdd](sales/saleDiscardAdd)
     * [SaleSearch](sales/saleSearch)
+    * [SaleSearchByPerformance](sales/saleSearchByPerformance)
 * Описание запросов, тип токена `ordering`                                                  
     * [OrderSettings](ordering/orderSettings)                                                                                                                         
     * Подзапросы OrderPlaceReservation, для работы с местами в брони                                       
