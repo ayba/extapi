@@ -42,6 +42,7 @@
     * [OrderRemove](ordering/orderRemove)
     * [OrderDiscardAdd](ordering/orderDiscardAdd)
     * [OrderSearch](ordering/orderSearch)
+    * [OrderSearchByPerformance](ordering/orderSearchByPerformance)
 * Описание запросов, тип токена `discards`
 	* [DiscardsSettings](discards/discardsSettings)
 	* [DiscardsInfo](discards/discardsInfo)

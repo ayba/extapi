@@ -20,7 +20,7 @@ _SaleSearchByPerformance_ - поиск продаж
 |     kinoplanId|   kinoplanId сеанса     |     да    |   string  |      отсутствует      |
 
 ### Пример запроса
-`/api/v2/saleSearch/?kinoplanId=58d149b811f30d0ef3619d27&token={token}`
+`/api/v2/saleSearchByPerformance/?kinoplanId=58d149b811f30d0ef3619d27&token={token}`
 
 ### Пример ответа
 ```json
