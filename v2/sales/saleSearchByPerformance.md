@@ -3,7 +3,7 @@
 
 _SaleSearchByPerformance_ - поиск продаж
 ---------------------------
-`/api/v2/saleSearch/?kinoplanId={kinoplanId}&token={token}`
+`/api/v2/saleSearchByPerformance/?kinoplanId={kinoplanId}&token={token}`
 
 ### Описание
 Возвращает информацию о всех найденных продажах для данного сеанса.
