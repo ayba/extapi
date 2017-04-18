@@ -112,4 +112,5 @@
     * [TicketCheck](replies/ticketCheck)
     * [Stock](replies/stock)
     * [CashierPlace](replies/cashierPlace)
+* [Отчеты](reports)
 * [Коды ошибок](errors)
